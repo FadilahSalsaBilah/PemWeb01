@@ -1,0 +1,99 @@
+body {
+  background-color: pink;
+  font-family: sans-serif;
+}
+
+#header {
+  background-color: palevioletred;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+blockquote {
+  background-color: lavender;
+  color: black;
+  border: 1px dotted black;
+  padding: 5px;
+}
+
+#soekarno {
+  font-style: italic;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.menu ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  color: purple;
+}
+
+.gambar {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.gambar2 {
+  width: 343px;
+  border-radius: 10px;
+}
+
+.isi {
+  text-align: justify;
+}
+
+.jawa {
+  font-weight: bold;
+}
+
+#profil h3 {
+  font-size: 150%;
+  text-align: center;
+}
+
+#beternak {
+  padding: 15px;
+  text-align: justify;
+}
+
+#beternak h3 {
+  text-align: center;
+  font-size: 150%;
+}
+
+.koleksi {
+  background-color: palevioletred;
+}
+
+.koleksi img {
+  width: 24%;
+  padding: 20px 0px 20px 9px;
+}
+
+.promo {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.promo ol {
+  display: inline-block;
+  list-style: none;
+}
+
+.promo ol li a {
+  text-decoration: none;
+  color: purple;
+}
