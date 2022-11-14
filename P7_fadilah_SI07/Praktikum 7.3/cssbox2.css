@@ -1,0 +1,51 @@
+/* box hijau */
+.box1 {
+  width: 96%;
+  height: 140px;
+  margin: 30px;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(171, 226, 128);
+}
+/* box kuning */
+.box2 {
+  float: left;
+  height: 230px;
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: yellow;
+}
+/* box oren */
+.box3 {
+  float: left;
+  height: 230px;
+  width: 72%;
+  margin: 15px 0px 0px 50px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(255, 104, 49);
+}
+/* box kuning(2) */
+.box4 {
+  float: left;
+  height: 230px;
+  width: 20%;
+  margin: 35px 0px 0px 30px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: yellow;
+}
+/* box biru */
+.box5 {
+  float: left;
+  height: 230px;
+  width: 72%;
+  margin: 35px 0px 0px 50px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(40, 201, 255);
+}
