@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/bg\ produk.jpeg);
+}
+
+.header {
+    margin: 20px;
+    color: black;
+    background: pink;
+    height: 50px;
+}
+
+
+.gambar {
+    width: 1000%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+
+.gambar .foto img {
+    width: 220px;
+    height: 230;
+}
+
+.foto {
+    padding-right: 15px;
+    border: 2px solid pink;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+}
+
+.foto h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.foto h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.foto h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+
+.fotp a {
+    border: 1px solid pink;
+    padding: 10px;
+    color: black;
+    background: pink;
+    text-decoration: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin: 100px;
+    color: black;
+    height: 70px;
+}
+
+.footer p {
+    padding-top: 25px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
