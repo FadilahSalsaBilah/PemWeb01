@@ -102,16 +102,16 @@ section h3 {
 }
 
 .about p {
-    color: lightseagreen;
+    color: palevioletred;
 }
 
 .list {
-    color: aqua;
+    color: palevioletred;
 }
 
 footer {
     padding: 30px 0;
-    background-color: lightpink;
+    background-color: lightsalmon;
     color: white;
     text-align: center;
 }
