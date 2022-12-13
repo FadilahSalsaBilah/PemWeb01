@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <style>
+        .chatbox{
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            stroke: black;
+            background-color: rgb(219, 219, 219);
+        }
+
+        .pesan{
+            width: 10%;
+            border-radius: 3px;
+        }
+    </style>
+    </style>
+</head>
+<body>
+	<div class="chatbox" id="isichat">
+		
+	</div >
+	<form method="REQUEST" onsubmit="return kirim();">
+		<input class="pesan" id="pesan" type="text" name="pesan">
+		<button type="submit" onclick="return kirim();">Kirim</button>
+	</form>
+	
+</body>
+<script type="text/javascript">
+	function kirim() {
+		let pesan = document.getElementById("pesan").value;
+		document.getElementById("isichat").innerHTML += pesan+"<br/>";
+		document.getElementById("pesan").value = "";
+		return false;
+	}
+</script>
+</html>

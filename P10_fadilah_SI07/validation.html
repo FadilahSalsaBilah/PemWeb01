@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<center>
+		<h2>Form Validation</h2>
+	</center>
+	<div class="login">
+		<form action="hasil.html" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama Pelanggan:</label>
+				<input type="text" name="nama" id="nama" required />
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" required /> <br>
+			</div>
+			<div>
+				<label>Jam Keberangkatan:</label><br><br>
+				<input type="time" name="jam" id="jam" /><br><br>
+			</div>
+			<div>
+				<label>Tujuan Keberangkatan:</label>
+				<textarea cols="10" rows="5" name="tujuan" id="tujuan" required></textarea><br><br>
+			</div>
+			<div>
+				<label>Jumlah Tiket (1-10):</label>
+				<input type="number" name="jumlah" id="jumlah" required minlength="1" maxlength="10"><br><br>
+			</div>
+			<div>
+				<input type="submit" value="Pesan" class="tombol">
+			</div>
+		</form>
+	</div>
+</body>
+<script type="text/javascript">
+	function validasi() {
+		var nama = document.getElementById("nama").value;
+		var email = document.getElementById("email").value;
+		var jam = document.getElementById("jam").value;
+		var tujuan = document.getElementById("tujuan").value;
+		var jumlah = document.getElementById("jumlah").value
+		if (nama != "" && email != "" && jam != "") {
+			form.setAttribute("action","hasil.html");
+			alert('Pemesanan Berhasil');
+		} else {
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+
+</script>
+
+</html>
