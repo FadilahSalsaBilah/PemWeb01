@@ -5,22 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Picker</title>
+    <style>
+        body{
+            background-color: lightcoral;
+        }
+        img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            width: 750px;
+        }
+
+    </style>
     <script>
         function gambar() {
             let drop_img = document.getElementById("dropdown_img").value
             let image = document.getElementById("image");
 
-            if(drop_img == "gorila") {
-                image.setAttribute("src","gorila.jpeg")
-                alert("Ini gambar gorila");
+            if(drop_img == "anya") {
+                image.setAttribute("src","anya.jpeg")
+                alert("Ini gambar anya");
             }
-            else if(drop_img == "singa") {
-                image.setAttribute("src","singa.jpeg")
-                alert("Ini gambar singa");
+            else if(drop_img == "kanna") {
+                image.setAttribute("src","kanna.jpeg")
+                alert("Ini gambar kanna");
             }
-            else if(drop_img == "elang") {
-                image.setAttribute("src","elang.jpeg")
-                alert("Ini gambar elang");
+            else if(drop_img == "shino") {
+                image.setAttribute("src","shino.jpeg")
+                alert("Ini gambar shino");
             }
 
         }
@@ -29,9 +42,9 @@
 <body>
     <select  id="dropdown_img" onchange="gambar()">
         <option hidden>---Pilih Gambar---</option>
-        <option value="gorila">Gorila</option>
-        <option value="singa">Singa</option>
-        <option value="elang">Elang</option>
+        <option value="anya">Anya Forger</option>
+        <option value="kanna">Kanna Kamui</option>
+        <option value="shino">Shino Aki</option>
     </select>
     <br />
     <img id="image" />
