@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function jumlah() {
+            let angka1 = document.getElementById("angka1").value;
+            let angka2 = document.getElementById("angka2").value;
+            hasil_var = parseInt(angka1) + parseInt(angka2);
+
+            let hasil = document.getElementById("hasiljumlah");
+            hasil.innerHTML = hasil_var;
+
+        }
+    </script>
+</head>
+
+<body>
+    <input type="number" id="angka1" value="" onchange="jumlah()">
+    <br>
+    +
+    <br>
+    <input type="number" id="angka2" value="" onchange="jumlah()">
+    <br>
+    <br>
+    =
+    <br>
+    <form><span id="hasiljumlah"></span></form>
+</body>
+
+</html>

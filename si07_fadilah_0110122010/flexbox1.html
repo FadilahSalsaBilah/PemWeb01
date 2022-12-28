@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 8.1</title>
+    <style>
+        *{
+            box-sizing: border-box;  
+        }
+       
+        .container_utama{
+            width: 1500px;
+            height: 600px;
+            margin: 130px auto;
+            display: flex;
+        }
+        
+        .Nav{
+            background-color: pink;
+            font-size: 40px;
+            font-weight: bold;
+            flex: 1;
+        }
+        
+        .container{
+            display: flex;
+            flex-direction: column;
+            flex: 5;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            order: 2;
+            justify-content: space-around;
+        }
+       
+        .Header{
+            background-color: khaki;
+            order: 1;
+            font-size: 30px;
+            font-weight: bold;
+            flex: 2;
+        }
+        
+        .Footer{
+            background-color:  khaki;
+            order: 3;
+            text-align: left;
+            font-size: 30px;
+            font-weight: bold;
+            flex: 2;
+        }
+        
+        .Article{
+            background-color: whitesmoke;
+            font-size: 30px;
+            font-weight: bold;
+            flex: 2;
+        }
+       
+        .Aside{
+            background-color: aqua;
+            font-size: 30px;
+            font-weight: bold;
+            flex: 1;
+        }
+
+        .main{
+            display: flex;
+            flex-direction: row;
+            height: 180px;
+            order: 2;
+            justify-content: space-around;
+            flex: 8;
+        }
+    </style>
+</head>
+<body>
+<div class="container_utama">
+    <div class="Nav" style="line-height: 100px; padding: 20px;">Nav</div>
+    <div class="container">
+        <div class="Header" style="line-height: 100px; padding: 20px;">Header</div>
+        <div class="Footer" style="line-height: 100px; padding: 20px;">Footer</div>
+        <div class="main">
+            <div class="Article" style="line-height: 100px; padding: 20px;">Article
+            </div>
+            <div class="Aside" style="line-height: 100px; padding: 20px;">Aside</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
